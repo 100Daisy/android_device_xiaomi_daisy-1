@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_daisy.mk
+    $(LOCAL_DIR)/octavi_daisy.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_daisy-user \
-    arrow_daisy-userdebug \
-    arrow_daisy-eng
+    octavi_daisy-user \
+    octavi_daisy-userdebug \
+    octavi_daisy-eng
