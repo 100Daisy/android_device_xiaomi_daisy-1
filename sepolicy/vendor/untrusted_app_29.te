@@ -1,5 +1,4 @@
 #allow untrusted_app boottime_prop:file read;
-#allow untrusted_app vendor_cnd_vendor_prop:file read;
 #allow untrusted_app ctl_dumpstate_prop:file { read };
 #allow untrusted_app ctl_fuse_prop:file { read };
 #allow untrusted_app ctl_interface_restart_prop:file { read };

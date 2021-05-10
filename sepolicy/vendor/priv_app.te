@@ -1,6 +1,5 @@
 #allow priv_app device:chr_file ioctl;
 #allow priv_app boottime_prop:file read;
-#allow priv_app vendor_cnd_vendor_prop:file read;
 #allow priv_app adsprpcd_file:filesystem getattr;
 #allow priv_app ctl_bootanim_prop:file read;
 #allow priv_app ctl_bugreport_prop:file read;

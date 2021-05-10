@@ -1,5 +1,4 @@
 #allow system_app boottime_prop:file read;
-#allow system_app vendor_cnd_vendor_prop:file read;
 #allow system_app fs_bpf:dir search;
 #allow system_app ctl_bootanim_prop:file { read };
 #allow system_app ctl_console_prop:file { read };

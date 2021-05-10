@@ -1,5 +1,4 @@
 #allow platform_app boottime_prop:file read;
-#allow platform_app vendor_cnd_vendor_prop:file read;
 #allow platform_app ctl_bootanim_prop:file { read };
 #allow platform_app ctl_bugreport_prop:file { read };
 #allow platform_app ctl_console_prop:file { read };
