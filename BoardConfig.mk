@@ -64,6 +64,19 @@ TARGET_KERNEL_CLANG_COMPILE := true
 #TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)
 #TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 
+# QCOM variant
+    TARGET_QCOM_AUDIO_VARIANT := caf-msm8996
+    TARGET_QCOM_DISPLAY_VARIANT := caf-msm8996
+    TARGET_QCOM_MEDIA_VARIANT := caf-msm8996
+
+#HALS
+    SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996/media
+    SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996/display
+    SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996/audio
+    PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/display
+    PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/audio
+    PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/media
+    
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
